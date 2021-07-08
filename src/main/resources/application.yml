@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: rechnungs-service
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: rechnungs-service
+      auto-offset-reset: earliest
+
+server:
+  port: 8086

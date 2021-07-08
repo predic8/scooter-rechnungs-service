@@ -1,0 +1,6 @@
+
+GET http://localhost:8086/rechnung/6789
+Content-Type: application/json
+
+
+
